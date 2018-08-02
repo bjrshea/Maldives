@@ -1,12 +1,24 @@
 img {
 width: 500px;
+float: left;
 }
 
-ul {
-  float: right;
-  font-size: 36pt;
+.panel-body p {
+  font-size: 12pt;
+}
+
+.panel-body img {
+  margin-right: 15px;
 }
 
 html, body {
   background-image:linear-gradient(#A3CDF5, #93F9EC, #F0F1DD);
+}
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 64pt;
+}
+
+h3 {
+  font-family: 'Caveat', cursive;
 }
